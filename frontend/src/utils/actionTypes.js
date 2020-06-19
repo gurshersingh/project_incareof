@@ -1,0 +1,3 @@
+export const EMPLOYER_REGISTRATION = 'EMPLOYER_REGISTRATION'
+export const GET_SERVICES = 'GET_SERVICES'
+export const LOGIN = 'LOGIN'

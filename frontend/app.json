@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Incareof",
+    "icon": "./assets/icon.png",
+    "version": "1.0.0",
+    "slug": "Incareof",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.gursher.incareof",
+      "versionCode": 1
+    },
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "facebookAppId": "1103337533366321",
+      "facebookDisplayName": "gursher",
+      "facebookScheme": "fb1103337533366321"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

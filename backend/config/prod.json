@@ -1,0 +1,34 @@
+{
+  "PORT":"2000",
+  "db":{
+      "database":"incareof",
+      "options": {
+          "logging": true,
+          "dialect": "mysql",
+          "underscored": "true",
+          "freezeTableName": "true",
+          "port": 3306,
+          "pool": {
+              "max": 50,
+              "min": 0,
+              "idle": 500
+          },
+          "replication": {
+              "write": {
+                "username": "admin",
+                "password": "HO0DoCtI45nH",
+                "host": "beta-careerkarts.ccbdzlcrbifn.ap-south-1.rds.amazonaws.com",
+                "port": 3306
+              },
+              "read": [
+                  {
+                    "username": "admin",
+                    "password": "HO0DoCtI45nH",
+                    "host": "beta-careerkarts.ccbdzlcrbifn.ap-south-1.rds.amazonaws.com",
+                    "port": 3306
+                  }
+              ]
+          }
+      }
+  }
+}
