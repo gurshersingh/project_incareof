@@ -24,7 +24,7 @@
         "expo-image-picker": "~8.1.0",
         "expo-linear-gradient": "~8.1.0",
         "expo-permissions": "~8.1.0",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "link": "^0.1.5",
         "lodash": "^4.17.15",
         "mysql": "^2.18.1",
